@@ -2,7 +2,7 @@
 # number n and returns the previous odd number before n. 
 # You should not use if-elif-else constructs.
 
-def previous_odd_number(n):
+def previous_odd_number(n: int) -> int:
     return n - (n % 2 + 1)
 
 

@@ -2,7 +2,7 @@
 # a given Fahrenheit temperature to Celsius, rounded to two decimal 
 # places and returns it.
 
-def fahrenheit_to_celsius(f):
+def fahrenheit_to_celsius(f: int) -> float:
     return round((f - 32) * (5 / 9), 2)
 
 

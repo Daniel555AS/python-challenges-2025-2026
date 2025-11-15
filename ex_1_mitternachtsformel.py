@@ -2,7 +2,7 @@
 # of an expression like 'ax^2+bx+c=0' and returns the largest solution, rounded
 # to two decimal places.
 
-def mitternachtsformel(a, b, c):
+def mitternachtsformel(a: int, b: int, c: int) -> float:
     sqrt_discriminant = (b ** 2 - 4 * a * c) ** 0.5 
     x1 = round((-b + sqrt_discriminant) / (2 * a), 2)
     x2 = round((-b - sqrt_discriminant) / (2 * a), 2)
